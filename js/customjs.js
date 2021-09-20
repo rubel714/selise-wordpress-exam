@@ -27,6 +27,7 @@ function wpgmapAdvancedSettingsAjax() {
 		success : function (response){
 			 if (response == 1) {
 				alert("Success"); 
+				$('#ufname,#ulname,#uemail,#umessage').val("");
 			} else {
 				
 				alert("Failed");
